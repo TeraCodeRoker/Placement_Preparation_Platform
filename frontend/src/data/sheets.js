@@ -1,0 +1,58 @@
+// External DSA sheets. These are plain links — no backend needed.
+// Add/remove entries freely.
+export const SHEETS = [
+  {
+    id: "striver-a2z",
+    name: "Striver A2Z DSA Sheet",
+    author: "takeUforward",
+    problems: "450+",
+    tags: ["Beginner-friendly", "Structured"],
+    desc: "Step-by-step from basics to advanced. The interview round in this app samples DSA questions from this sheet.",
+    url: "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/",
+  },
+  {
+    id: "striver-sde",
+    name: "Striver SDE Sheet",
+    author: "takeUforward",
+    problems: "191",
+    tags: ["Interview prep", "Time-boxed"],
+    desc: "The classic ~2-month SDE sheet covering the most-asked interview problems.",
+    url: "https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/",
+  },
+  {
+    id: "neetcode-150",
+    name: "NeetCode 150",
+    author: "NeetCode",
+    problems: "150",
+    tags: ["Patterns", "Video solutions"],
+    desc: "Curated set grouped by pattern, each with a clear video walkthrough.",
+    url: "https://neetcode.io/practice",
+  },
+  {
+    id: "love-babbar-450",
+    name: "Love Babbar 450 DSA",
+    author: "CodeHelp",
+    problems: "450",
+    tags: ["Comprehensive", "Topic-wise"],
+    desc: "The well-known 450 questions spanning every core DSA topic.",
+    url: "https://drive.google.com/file/d/1FMdN_OCfOI0iAeDlqswCiC2DZzD4nPsb/view",
+  },
+  {
+    id: "blind-75",
+    name: "Blind 75",
+    author: "Tech Interview Handbook",
+    problems: "75",
+    tags: ["Minimal", "High-yield"],
+    desc: "A tight 75-problem list when you're short on time before interviews.",
+    url: "https://www.techinterviewhandbook.org/best-practice-questions/",
+  },
+  {
+    id: "gfg-sde",
+    name: "GfG SDE Sheet",
+    author: "GeeksforGeeks",
+    problems: "180+",
+    tags: ["Company-tagged", "Explanations"],
+    desc: "Company-wise tagged problems with detailed editorial explanations.",
+    url: "https://www.geeksforgeeks.org/sde-sheet-a-complete-guide-for-sde-preparation/",
+  },
+];

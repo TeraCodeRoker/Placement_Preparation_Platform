@@ -1,0 +1,24 @@
+[project]
+name = "prepstack-backend"
+version = "0.1.0"
+description = "PrepStack backend — plain Django"
+requires-python = ">=3.12"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+extend-exclude = [".venv", "**/migrations/*"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.ruff.lint.per-file-ignores]
+# conftest sets an env var before Django settings load (must precede it).
+"conftest.py" = ["E402"]
+
+# mypy is scoped to the framework-neutral layers (Django views/models are thin
+# and would need django-stubs); the pure logic keeps type discipline.
+[tool.mypy]
+python_version = "3.12"
+files = ["apps/integrations", "apps/core/exceptions.py", "apps/core/security.py"]
+ignore_missing_imports = true

@@ -1,0 +1,61 @@
+# Render Blueprint (Infrastructure-as-Code) — free tier only.
+# See docs/DEPLOYMENT.md for the step-by-step runbook (accounts, keys, migrate).
+services:
+  # --- Backend: plain Django (Gunicorn WSGI, native Python buildpack, ADR-012) ---
+  - type: web
+    name: prepstack-api
+    runtime: python
+    plan: free
+    rootDir: backend
+    # Migrations run at build (free tier has no preDeployCommand); env vars are
+    # available during build.
+    buildCommand: "pip install -r requirements.txt && python manage.py migrate"
+    startCommand: "gunicorn prepstack.wsgi:application --bind 0.0.0.0:$PORT --workers 2"
+    healthCheckPath: /health
+    envVars:
+      - key: APP_ENV
+        value: prod
+      - key: GEMINI_MODEL
+        value: gemini-3.1-flash-lite
+      - key: EXECUTION_PROVIDER
+        value: paiza # free public runner — no key, no account, no payment
+      - key: PAIZA_URL
+        value: https://api.paiza.io
+      - key: PAIZA_API_KEY
+        value: guest
+      - key: JWT_SECRET
+        generateValue: true # Render generates a strong secret
+      - key: DJANGO_SECRET_KEY
+        generateValue: true
+      # --- set these in the Render dashboard (sync:false = not stored in git) ---
+      - key: DATABASE_URL # Neon/Render Postgres (postgres://… ; Django scheme)
+        sync: false
+      - key: GEMINI_API_KEY # rotated key
+        sync: false
+      # Code execution uses the free Paiza runner above — no key needed.
+      # To switch: EXECUTION_PROVIDER=piston (+PISTON_URL for a self-hosted box)
+      # or EXECUTION_PROVIDER=judge0 (+JUDGE0_API_KEY, paid RapidAPI plan).
+      - key: ALLOWED_ORIGINS # https://prepstack-web.onrender.com
+        sync: false
+      - key: ADMIN_BOOTSTRAP_EMAIL # the email that becomes admin on first register
+        sync: false
+
+  # --- Frontend: Vite static site (global CDN), proxying /api to the backend so
+  #     the app is same-origin (makes the SameSite=Lax refresh cookie work). ---
+  - type: web
+    name: prepstack-web
+    runtime: static
+    rootDir: frontend
+    buildCommand: "npm ci && npm run build"
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /api/*
+        destination: https://prepstack-api.onrender.com/api/*
+      - type: rewrite
+        source: /health
+        destination: https://prepstack-api.onrender.com/health
+      # SPA fallback (must be last).
+      - type: rewrite
+        source: /*
+        destination: /index.html

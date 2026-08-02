@@ -1,0 +1,47 @@
+# ---- Secrets (never commit) ----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# ---- Node / frontend ----
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# ---- Source archives (originals kept locally, not tracked) ----
+*.zip
+
+# ---- Editors / OS ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+
+# ---- Playwright ----
+/e2e/test-results/
+/e2e/playwright-report/
+/playwright/.cache/
+
+# Local SQLite dev/test databases
+*.db
+*.sqlite
+*.sqlite3
