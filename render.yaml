@@ -13,6 +13,11 @@ services:
     startCommand: "gunicorn prepstack.wsgi:application --bind 0.0.0.0:$PORT --workers 2"
     healthCheckPath: /health
     envVars:
+      # Pin the interpreter. Render's default has moved to 3.14, on which
+      # Django 5.1 is unsupported and several pinned wheels (psycopg-binary)
+      # don't publish cp314 builds. 3.12 is what this project is tested on.
+      - key: PYTHON_VERSION
+        value: "3.12.4"
       - key: APP_ENV
         value: prod
       - key: GEMINI_MODEL
