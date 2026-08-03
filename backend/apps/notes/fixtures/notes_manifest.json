@@ -1,0 +1,875 @@
+[
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/computer-networks/unit-1/z-syllabus.png",
+    "size_bytes": 39852,
+    "sort_order": 0
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "CN Introduction",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/cn-introduction.pdf",
+    "size_bytes": 268003,
+    "sort_order": 1
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "CN Unit1 Part1",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/cn-unit1-part1.pdf",
+    "size_bytes": 905300,
+    "sort_order": 2
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "CN Unit1 Part2",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/cn-unit1-part2.pdf",
+    "size_bytes": 1071911,
+    "sort_order": 3
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "ConnectionOriented Less",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/connectionoriented-less.pdf",
+    "size_bytes": 205147,
+    "sort_order": 4
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "Delays",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/delays.pdf",
+    "size_bytes": 439332,
+    "sort_order": 5
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "Line Encoding Upload",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/line-encoding-upload.pdf",
+    "size_bytes": 380217,
+    "sort_order": 6
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "Multiplexing PPT Upload",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/multiplexing-ppt-upload.pdf",
+    "size_bytes": 331134,
+    "sort_order": 7
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "PhysicalLayer Fundamentals",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/physicallayer-fundamentals.pdf",
+    "size_bytes": 778020,
+    "sort_order": 8
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "Switching",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/switching.pdf",
+    "size_bytes": 985015,
+    "sort_order": 9
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "Transmission Media",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/transmission-media.pdf",
+    "size_bytes": 1238186,
+    "sort_order": 10
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 1",
+    "title": "TransmissionMedia Noise Capacity",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-1/transmissionmedia-noise-capacity.pdf",
+    "size_bytes": 4284250,
+    "sort_order": 11
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/computer-networks/unit-2/z-syllabus.png",
+    "size_bytes": 45830,
+    "sort_order": 12
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "Access Control Updated",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/access-control-updated.pdf",
+    "size_bytes": 3660398,
+    "sort_order": 13
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "DistanceVectorRouting",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/distancevectorrouting.pdf",
+    "size_bytes": 880378,
+    "sort_order": 14
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "Error Detection and Correction Updated",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/error-detection-and-correction-updated.pdf",
+    "size_bytes": 4826809,
+    "sort_order": 15
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "FlowControl",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/flowcontrol.pdf",
+    "size_bytes": 927393,
+    "sort_order": 16
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "IPAddressing Part1",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/ipaddressing-part1.pdf",
+    "size_bytes": 1945542,
+    "sort_order": 17
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "IPAddressing Part2",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/ipaddressing-part2.pdf",
+    "size_bytes": 1013596,
+    "sort_order": 18
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "LANTechnologies",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/lantechnologies.pdf",
+    "size_bytes": 4415585,
+    "sort_order": 19
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 2",
+    "title": "LinkStateRouting",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-2/linkstaterouting.pdf",
+    "size_bytes": 315793,
+    "sort_order": 20
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 3",
+    "title": "CN Unit 3 Part1",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-3/cn-unit-3-part1.pdf",
+    "size_bytes": 766946,
+    "sort_order": 21
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 3",
+    "title": "CN Unit3 Part2",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-3/cn-unit3-part2.pdf",
+    "size_bytes": 1009703,
+    "sort_order": 22
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 3",
+    "title": "Screenshot 2026-06-22 203707",
+    "kind": "image",
+    "url": "/notes/computer-networks/unit-3/screenshot-2026-06-22-203707.png",
+    "size_bytes": 29098,
+    "sort_order": 23
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 4",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/computer-networks/unit-4/z-syllabus.png",
+    "size_bytes": 34454,
+    "sort_order": 24
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 4",
+    "title": "CN Unit4",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-4/cn-unit4.pdf",
+    "size_bytes": 1037606,
+    "sort_order": 25
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 5",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/computer-networks/unit-5/z-syllabus.png",
+    "size_bytes": 42206,
+    "sort_order": 26
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 5",
+    "title": "CN Unit 5 Part 1",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-5/cn-unit-5-part-1.pdf",
+    "size_bytes": 4964620,
+    "sort_order": 27
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Unit 5",
+    "title": "CN Unit5 Part 2",
+    "kind": "pdf",
+    "url": "/notes/computer-networks/unit-5/cn-unit5-part-2.pdf",
+    "size_bytes": 4583792,
+    "sort_order": 28
+  },
+  {
+    "subject": "Computer Networks",
+    "unit": "Overview",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/computer-networks/overview/z-syllabus.png",
+    "size_bytes": 214785,
+    "sort_order": 29
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/database-management-system/unit-1/z-syllabus.png",
+    "size_bytes": 94307,
+    "sort_order": 30
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "DBMS Unit1 Part1",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/dbms-unit1-part1.pdf",
+    "size_bytes": 584888,
+    "sort_order": 31
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "DBMS Unit1 Part2",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/dbms-unit1-part2.pdf",
+    "size_bytes": 559798,
+    "sort_order": 32
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "E-R Model",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/e-r-model.pdf",
+    "size_bytes": 821280,
+    "sort_order": 33
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "ER1",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/er1.pdf",
+    "size_bytes": 586270,
+    "sort_order": 34
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "Extended ER ReducingER Tables",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/extended-er-reducinger-tables.pdf",
+    "size_bytes": 1134573,
+    "sort_order": 35
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "Keys in DBMS",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/keys-in-dbms.pdf",
+    "size_bytes": 367336,
+    "sort_order": 36
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "SQL",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/sql.pdf",
+    "size_bytes": 257403,
+    "sort_order": 37
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 1",
+    "title": "SQL Part2",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-1/sql-part2.pdf",
+    "size_bytes": 249337,
+    "sort_order": 38
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/database-management-system/unit-2/z-syllabus.png",
+    "size_bytes": 56700,
+    "sort_order": 39
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "Assertion vs Trigger",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-2/assertion-vs-trigger.pdf",
+    "size_bytes": 4286857,
+    "sort_order": 40
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "SQL",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-2/sql.pdf",
+    "size_bytes": 257403,
+    "sort_order": 41
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "SQL Functions",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-2/sql-functions.pdf",
+    "size_bytes": 185327,
+    "sort_order": 42
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "SQL Operator",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-2/sql-operator.pdf",
+    "size_bytes": 271299,
+    "sort_order": 43
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "SQL Part2",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-2/sql-part2.pdf",
+    "size_bytes": 249337,
+    "sort_order": 44
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "TRC DRC",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-2/trc-drc.pdf",
+    "size_bytes": 532485,
+    "sort_order": 45
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 2",
+    "title": "Unit2 Part1",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-2/unit2-part1.pdf",
+    "size_bytes": 4494738,
+    "sort_order": 46
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 3",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/database-management-system/unit-3/z-syllabus.png",
+    "size_bytes": 59209,
+    "sort_order": 47
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 3",
+    "title": "4NF 5NF",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-3/4nf-5nf.pdf",
+    "size_bytes": 360162,
+    "sort_order": 48
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 3",
+    "title": "FunctionDependency",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-3/functiondependency.pdf",
+    "size_bytes": 368526,
+    "sort_order": 49
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 3",
+    "title": "Lossless Lossy DependencyPreserving",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-3/lossless-lossy-dependencypreserving.pdf",
+    "size_bytes": 323208,
+    "sort_order": 50
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 3",
+    "title": "Normalization",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-3/normalization.pdf",
+    "size_bytes": 554504,
+    "sort_order": 51
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 4",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/database-management-system/unit-4/z-syllabus.png",
+    "size_bytes": 97838,
+    "sort_order": 52
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 4",
+    "title": "DBMS Unit 4 Part1",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-4/dbms-unit-4-part1.pdf",
+    "size_bytes": 5854289,
+    "sort_order": 53
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 4",
+    "title": "DBMS Unit 4 Part2",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-4/dbms-unit-4-part2.pdf",
+    "size_bytes": 4757280,
+    "sort_order": 54
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 5",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/database-management-system/unit-5/z-syllabus.png",
+    "size_bytes": 43403,
+    "sort_order": 55
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 5",
+    "title": "Chapter 15 (Concurrency Control)",
+    "kind": "slides",
+    "url": "/notes/database-management-system/unit-5/chapter-15-concurrency-control.ppt",
+    "size_bytes": 918016,
+    "sort_order": 56
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 5",
+    "title": "Chapter 16 (Recovery System)",
+    "kind": "slides",
+    "url": "/notes/database-management-system/unit-5/chapter-16-recovery-system.ppt",
+    "size_bytes": 2338304,
+    "sort_order": 57
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 5",
+    "title": "DBMS Unit 5 Part 3",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-5/dbms-unit-5-part-3.pdf",
+    "size_bytes": 381581,
+    "sort_order": 58
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 5",
+    "title": "DBMS Unit 5 Part1",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-5/dbms-unit-5-part1.pdf",
+    "size_bytes": 484212,
+    "sort_order": 59
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 5",
+    "title": "DBMS Unit 5 Part2",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-5/dbms-unit-5-part2.pdf",
+    "size_bytes": 4400274,
+    "sort_order": 60
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 5",
+    "title": "PracticeQuestions Unit 5",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-5/practicequestions-unit-5.pdf",
+    "size_bytes": 114047,
+    "sort_order": 61
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 6",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/database-management-system/unit-6/z-syllabus.png",
+    "size_bytes": 14925,
+    "sort_order": 62
+  },
+  {
+    "subject": "Database Management System",
+    "unit": "Unit 6",
+    "title": "DBMS Unit 6",
+    "kind": "pdf",
+    "url": "/notes/database-management-system/unit-6/dbms-unit-6.pdf",
+    "size_bytes": 271162,
+    "sort_order": 63
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 1",
+    "title": "Unit1",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-1/unit1.pdf",
+    "size_bytes": 1953310,
+    "sort_order": 64
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 1",
+    "title": "Unit1 Part1",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-1/unit1-part1.pdf",
+    "size_bytes": 1962244,
+    "sort_order": 65
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 1",
+    "title": "Unit1 Part2",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-1/unit1-part2.pdf",
+    "size_bytes": 1062653,
+    "sort_order": 66
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 2",
+    "title": "Unit2",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-2/unit2.pdf",
+    "size_bytes": 487509,
+    "sort_order": 67
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 2",
+    "title": "Unit2 Part1",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-2/unit2-part1.pdf",
+    "size_bytes": 674029,
+    "sort_order": 68
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 3",
+    "title": "Unit3",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-3/unit3.pdf",
+    "size_bytes": 496348,
+    "sort_order": 69
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 3",
+    "title": "Unit3 Part1",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-3/unit3-part1.pdf",
+    "size_bytes": 1888228,
+    "sort_order": 70
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 3",
+    "title": "Unit3 Part2",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-3/unit3-part2.pdf",
+    "size_bytes": 1170174,
+    "sort_order": 71
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 4",
+    "title": "Unit4",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-4/unit4.pdf",
+    "size_bytes": 500011,
+    "sort_order": 72
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 4",
+    "title": "Unit4 Part1",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-4/unit4-part1.pdf",
+    "size_bytes": 527947,
+    "sort_order": 73
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 4",
+    "title": "Unit4 Part2",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-4/unit4-part2.pdf",
+    "size_bytes": 629321,
+    "sort_order": 74
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 4",
+    "title": "Unit4 Part3",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-4/unit4-part3.pdf",
+    "size_bytes": 715007,
+    "sort_order": 75
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 5",
+    "title": "Unit 5 File Handling",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-5/unit-5-file-handling.pdf",
+    "size_bytes": 1062573,
+    "sort_order": 76
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 5",
+    "title": "Unit5",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-5/unit5.pdf",
+    "size_bytes": 462621,
+    "sort_order": 77
+  },
+  {
+    "subject": "Object Oriented Programming",
+    "unit": "Unit 5",
+    "title": "Unit5 Exception Handling",
+    "kind": "pdf",
+    "url": "/notes/object-oriented-programming/unit-5/unit5-exception-handling.pdf",
+    "size_bytes": 1389328,
+    "sort_order": 78
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 1",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/operating-systems/unit-1/z-syllabus.png",
+    "size_bytes": 53067,
+    "sort_order": 79
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 1",
+    "title": "OS Unit1",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-1/os-unit1.pdf",
+    "size_bytes": 1312089,
+    "sort_order": 80
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 1",
+    "title": "Operating System Structure",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-1/operating-system-structure.pdf",
+    "size_bytes": 508388,
+    "sort_order": 81
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 2",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/operating-systems/unit-2/z-syllabus.png",
+    "size_bytes": 75503,
+    "sort_order": 82
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 2",
+    "title": "OS Unit 2 Part1",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-2/os-unit-2-part1.pdf",
+    "size_bytes": 502473,
+    "sort_order": 83
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 2",
+    "title": "OS Unit2 Part2Updated",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-2/os-unit2-part2updated.pdf",
+    "size_bytes": 5270181,
+    "sort_order": 84
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 2",
+    "title": "OS Unit2 Part3",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-2/os-unit2-part3.pdf",
+    "size_bytes": 4384863,
+    "sort_order": 85
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 3",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/operating-systems/unit-3/z-syllabus.png",
+    "size_bytes": 29121,
+    "sort_order": 86
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 3",
+    "title": "OS Unit3 Part1",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-3/os-unit3-part1.pdf",
+    "size_bytes": 260628,
+    "sort_order": 87
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 3",
+    "title": "OS Unit3 Part2",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-3/os-unit3-part2.pdf",
+    "size_bytes": 746770,
+    "sort_order": 88
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 4",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/operating-systems/unit-4/z-syllabus.png",
+    "size_bytes": 70505,
+    "sort_order": 89
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 4",
+    "title": "Unit4 Part1(Updated)",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-4/unit4-part1updated.pdf",
+    "size_bytes": 1427962,
+    "sort_order": 90
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 4",
+    "title": "Unit4 Part2",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-4/unit4-part2.pdf",
+    "size_bytes": 805991,
+    "sort_order": 91
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 5",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/operating-systems/unit-5/z-syllabus.png",
+    "size_bytes": 53345,
+    "sort_order": 92
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 5",
+    "title": "Unit5 Part1",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-5/unit5-part1.pdf",
+    "size_bytes": 1530830,
+    "sort_order": 93
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 6",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/operating-systems/unit-6/z-syllabus.png",
+    "size_bytes": 9074,
+    "sort_order": 94
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Unit 6",
+    "title": "OS Unit6",
+    "kind": "pdf",
+    "url": "/notes/operating-systems/unit-6/os-unit6.pdf",
+    "size_bytes": 376722,
+    "sort_order": 95
+  },
+  {
+    "subject": "Operating Systems",
+    "unit": "Overview",
+    "title": "Syllabus",
+    "kind": "syllabus",
+    "url": "/notes/operating-systems/overview/z-syllabus.png",
+    "size_bytes": 1379805,
+    "sort_order": 96
+  }
+]

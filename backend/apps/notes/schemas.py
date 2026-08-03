@@ -10,6 +10,10 @@ from pydantic import BaseModel, ConfigDict
 class NoteCreate(BaseModel):
     title: str
     subject: str = ""
+    unit: str = ""
+    kind: str = "link"
+    size_bytes: int = 0
+    sort_order: int = 0
     content_or_url: str
     approved: bool = False
 
@@ -17,6 +21,9 @@ class NoteCreate(BaseModel):
 class NoteUpdate(BaseModel):
     title: str | None = None
     subject: str | None = None
+    unit: str | None = None
+    kind: str | None = None
+    sort_order: int | None = None
     content_or_url: str | None = None
     approved: bool | None = None
 
@@ -27,6 +34,9 @@ class NoteOut(BaseModel):
     id: uuid.UUID
     title: str
     subject: str
+    unit: str
+    kind: str
+    size_bytes: int
     content_or_url: str
     approved: bool
     created_at: datetime

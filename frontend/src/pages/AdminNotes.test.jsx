@@ -51,6 +51,8 @@ it("lets an admin publish a note", async () => {
     expect(mockNotes.createNote).toHaveBeenCalledWith({
       title: "OS Cheatsheet",
       subject: "Operating Systems",
+      unit: "",
+      kind: "link",
       contentOrUrl: "https://ex.com/os",
       approved: true,
     })

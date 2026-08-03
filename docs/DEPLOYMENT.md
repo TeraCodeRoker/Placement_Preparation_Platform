@@ -56,6 +56,13 @@ the project is developed and tested on — resolves both.
   the frontend shows a "waking up" banner.
 - Optional: seed demo data once via the Render **Shell** —
   `python manage.py seed` (set `SEED_PASSWORD` first to also create demo logins).
+- **Notes library:** run `python manage.py import_notes` once from the Render
+  **Shell**. It reads the committed manifest
+  (`backend/apps/notes/fixtures/notes_manifest.json`, 24 KB) and creates the ~97
+  note rows pointing at the PDFs shipped with the static site under
+  `/notes/…`. It is idempotent, so re-running after adding files is safe; add
+  `--prune` to drop rows whose files were removed, or `--unapproved` to stage
+  them for review in the admin panel instead of publishing immediately.
 
 ## 4. Verify (the §9.2 manual checklist)
 - `GET https://prepstack-api.onrender.com/health` → `{"status":"healthy"}`.

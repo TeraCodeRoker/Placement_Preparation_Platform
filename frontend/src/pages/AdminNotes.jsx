@@ -9,6 +9,8 @@ export default function AdminNotes() {
   const [notes, setNotes] = useState([]);
   const [title, setTitle] = useState("");
   const [subject, setSubject] = useState("");
+  const [unit, setUnit] = useState("");
+  const [kind, setKind] = useState("link");
   const [contentOrUrl, setContentOrUrl] = useState("");
   const [error, setError] = useState("");
   const [loading, setLoading] = useState(false);
@@ -54,9 +56,10 @@ export default function AdminNotes() {
     setError("");
     setLoading(true);
     try {
-      await createNote({ title, subject, contentOrUrl, approved: true });
+      await createNote({ title, subject, unit, kind, contentOrUrl, approved: true });
       setTitle("");
       setSubject("");
+      setUnit("");
       setContentOrUrl("");
       await refresh();
     } catch (err) {
@@ -111,6 +114,38 @@ export default function AdminNotes() {
               value={subject}
               onChange={(e) => setSubject(e.target.value)}
             />
+          </div>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <div>
+            <label className="field-label" htmlFor="note-unit">
+              Unit
+            </label>
+            <input
+              id="note-unit"
+              className="field"
+              placeholder="e.g. Unit 1"
+              value={unit}
+              onChange={(e) => setUnit(e.target.value)}
+            />
+          </div>
+          <div>
+            <label className="field-label" htmlFor="note-kind">
+              Type
+            </label>
+            <select
+              id="note-kind"
+              className="field"
+              value={kind}
+              onChange={(e) => setKind(e.target.value)}
+            >
+              <option value="link">Link</option>
+              <option value="pdf">PDF</option>
+              <option value="slides">Slides</option>
+              <option value="doc">Document</option>
+              <option value="syllabus">Syllabus</option>
+              <option value="text">Text note</option>
+            </select>
           </div>
         </div>
         <div>
