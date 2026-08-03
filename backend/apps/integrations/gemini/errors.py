@@ -16,6 +16,21 @@ class GeminiUnavailableError(GeminiError):
     message = "AI service is temporarily unavailable, please retry."
 
 
+class GeminiRateLimitedError(GeminiError):
+    """Quota / rate limit (HTTP 429, RESOURCE_EXHAUSTED).
+
+    Distinct from ``GeminiUnavailableError`` because retrying immediately makes it
+    worse — it spends more of the quota that is already exhausted.
+    """
+
+    status_code = 429
+    code = "gemini_rate_limited"
+    message = (
+        "AI request quota reached for now. Free-tier limits refill after a short "
+        "wait — please try again in a minute."
+    )
+
+
 class GeminiEmptyResponseError(GeminiError):
     status_code = 502
     code = "gemini_empty_response"

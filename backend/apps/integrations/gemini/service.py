@@ -10,6 +10,7 @@ import random
 import time
 from typing import Protocol, TypeVar
 
+import structlog
 from pydantic import BaseModel, ValidationError
 
 from apps.integrations.gemini.adapters import extract_json
@@ -23,6 +24,8 @@ from apps.integrations.gemini.errors import (
 from apps.integrations.gemini.reliability import CircuitBreaker
 
 SchemaT = TypeVar("SchemaT", bound=BaseModel)
+
+_logger = structlog.get_logger("gemini")
 
 
 class SupportsGenerate(Protocol):
@@ -54,8 +57,15 @@ class GeminiService:
                 raw = self._client.generate(prompt, response_schema=response_schema)
             except GeminiError:
                 raise  # already classified (e.g. missing key)
-            except Exception:  # timeout / network / provider = transient
+            except Exception as exc:  # timeout / network / provider = transient
                 self._breaker.record_failure()
+                _logger.warning(
+                    "gemini_transient_failure",
+                    attempt=attempt + 1,
+                    of=self._max_retries + 1,
+                    error_type=type(exc).__name__,
+                    detail=str(exc)[:300],
+                )
                 last_error = GeminiUnavailableError()
                 if attempt < self._max_retries:
                     time.sleep(

@@ -11,6 +11,7 @@ from apps.integrations.execution.errors import (
 from apps.integrations.execution.judge0 import Judge0ExecutionProvider
 from apps.integrations.execution.paiza import PaizaExecutionProvider
 from apps.integrations.execution.piston import PistonExecutionProvider
+from apps.integrations.gemini.client import _is_gemini_compatible
 from apps.integrations.gemini.errors import (
     GeminiEmptyResponseError,
     GeminiMalformedResponseError,
@@ -304,3 +305,68 @@ def test_paiza_unsupported_language():
 
     with pytest.raises(UnsupportedLanguageError):
         _paiza(h).execute("brainfuck", "+", "", 1.0)
+
+
+# --- Gemini structured-output compatibility (the "only interview worked" bug) ---
+class _FreeFormSchema(BaseModel):
+    """Mirrors McqItemSchema: `dict[str, str]` -> free-form object."""
+
+    question: str
+    options: dict[str, str]
+
+
+class _ExplicitSchema(BaseModel):
+    question: str
+    answer: str
+
+
+def test_free_form_dict_is_detected_as_incompatible():
+    # Pydantic renders dict[str, str] as additionalProperties with no
+    # `properties`; Gemini rejects that with 400 INVALID_ARGUMENT.
+    assert _is_gemini_compatible(_ExplicitSchema.model_json_schema()) is True
+    assert _is_gemini_compatible(_FreeFormSchema.model_json_schema()) is False
+
+
+class _CapturingSDK:
+    """Stands in for the google-genai client, recording the config it receives."""
+
+    def __init__(self):
+        self.config = None
+        self.models = self
+
+    def generate_content(self, *, model, contents, config):
+        self.config = config
+        return type("R", (), {"text": '{"question":"q","options":{"A":"x"}}'})()
+
+
+def _client_with(sdk, monkeypatch):
+    from apps.integrations.gemini.client import GeminiClient
+
+    c = GeminiClient("key", "gemini-test", 5.0)
+    monkeypatch.setattr(c, "_sdk", lambda: sdk)
+    return c
+
+
+def test_incompatible_schema_falls_back_to_json_mode(monkeypatch):
+    sdk = _CapturingSDK()
+    _client_with(sdk, monkeypatch).generate("p", response_schema=_FreeFormSchema)
+    # JSON is still requested, but the rejected schema is NOT sent.
+    assert sdk.config.response_mime_type == "application/json"
+    assert sdk.config.response_schema is None
+
+
+def test_compatible_schema_is_sent_natively(monkeypatch):
+    sdk = _CapturingSDK()
+    _client_with(sdk, monkeypatch).generate("p", response_schema=_ExplicitSchema)
+    assert sdk.config.response_schema is _ExplicitSchema
+
+
+def test_every_project_schema_survives_the_gate():
+    # Guards against a schema that would crash the gate itself.
+    from apps.interview.schemas import EvaluationSchema
+    from apps.mcq.schemas import McqGenerationSchema
+    from apps.oa.schemas import OAProblemSchema
+    from apps.resume.schemas import ResumeAnalysisSchema
+
+    for schema in (McqGenerationSchema, OAProblemSchema, ResumeAnalysisSchema, EvaluationSchema):
+        assert isinstance(_is_gemini_compatible(schema.model_json_schema()), bool)
