@@ -78,12 +78,12 @@ holds placeholders. CORS is locked to configured origins; AI/execution endpoints
 are rate-limited. See [ADR-016](docs/ADRS/016-security.md).
 
 ## Contributers
-Rohail Hussain - https://github.com/TeraCodeRoker
-Sahil Bhardwaj - https://github.com/sahilbhardwaj81
-Sajan - https://github.com/sajanrathore53-max
-Sarthak Saini - https://github.com/nyc-Sarthak
-Sashwat Nain - https://github.com/sassy121298
-Saubhagya Singhal - https://github.com/saubhagyasinghal29-spec
+ - Rohail Hussain - https://github.com/TeraCodeRoker
+ - Sahil Bhardwaj - https://github.com/sahilbhardwaj81
+ - Sajan - https://github.com/sajanrathore53-max
+ - Sarthak Saini - https://github.com/nyc-Sarthak
+ - Sashwat Nain - https://github.com/sassy121298
+ - Saubhagya Singhal - https://github.com/saubhagyasinghal29-spec
 
 ## License
 MIT — see [`LICENSE`](LICENSE).
